@@ -1,0 +1,28 @@
+a = float(input('Marks for Quiz 1 out of 20: '))
+b = float(input('Marks for Quiz 2 out of 20: '))
+c = float(input('Marks for Class Test out of 50: '))
+d = float(input('Marks for Assignment out of 100: '))
+e = float(input('Marks for Project out of 200: '))
+
+#Quiz 1 Marks
+quiz1 = float((a/20) * 10)
+print('Quiz 1',quiz1)
+
+#Quiz 2 Marks
+quiz2 = float((b/20) * 10)
+print('Quiz 2',quiz2)
+
+#Class Test Marks
+c_T = float((c/50) * 25)
+print('Class Test',c_T)
+
+#Assignment Marks
+assignment = float((d/100) * 25)
+print('Assignment',assignment)
+
+#Project Marks
+project = float((e/200)* 30)
+print('Project',project)
+
+Total = (quiz1 + quiz2 + c_T + assignment + project)
+print('Total Marks obtained out of 100: ',Total)
